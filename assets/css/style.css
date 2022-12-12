@@ -1,0 +1,466 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family:Arial, Helvetica, sans-serif;
+}
+:root{
+    --bg-color: #861835;
+}
+.clear{
+    clear: both;
+}
+.header{
+    height: 80px;
+    position: relative;
+}
+.hbar{
+    display: flex;
+    justify-content: center;
+    
+}
+.logo{
+    background:url(../img/logo/spl-1.png) no-repeat center right;
+}
+.hbar{
+    background-color:  var(--bg-color);
+    width: 100%;
+    height: 80px;   
+    position: fixed ;
+    top: 0;
+    z-index: 1;
+}
+.hbar img{
+    width: 104px;  
+    height: 47px;
+    margin: 15px 20px 15px 0;
+}
+.hbar-row{
+    width: 680px;
+    height: 30px;
+    margin:25px 0;
+
+}
+.mnbar >li {
+    float: left;
+}
+.mnbar li a:hover{
+    color: red;
+}
+.mnbar li a{
+    text-decoration: none;
+    color: #F1EEE5;
+    font-size: 20px;
+    padding: 0 16px;
+    font-weight: 600;
+    line-height: 35px;
+}
+.mnbar {
+    list-style-type: none;
+    
+}
+.mnbar li:hover .more {
+    display: block;
+}
+.more{
+    display: none;
+    list-style-type: none;
+    position: absolute;
+    top: 60px;
+    background-color: #F1EEE5;
+    width: 180px;
+    height: 80px;
+    padding: 10px 0;
+    line-height: 30px;
+}
+
+.more li a{
+    font-size: 16px;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+
+.clx{
+    height: 30px;
+}
+.container{
+    max-width: 1050px;
+    margin: 0 auto;
+    height: 1000px;
+    background-color: #fff ;
+}
+.row{
+}
+.col-main{
+    width: 700px;
+    height: 2000px;
+    padding: 0 15px;
+    float: left;
+}
+.col-main .col-head{
+    text-align: center;
+    
+}
+.col-cap{
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--bg-color);
+}
+.col-br{
+    background: url(../img/container/logo.svg) center  no-repeat;
+    height: 10px;
+
+}
+
+.col-news li{
+    border-top: 1px solid #eaeaea;
+}
+.wc-news{
+    list-style-type: none;
+    
+}
+.news{
+    height: 110px;
+    padding: 10px 0;
+   
+}
+.news img{
+    width: 160px;
+    height: 90px;
+}
+.thumb{
+    float: left;
+    margin-right: 20px;
+}
+.news h2{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px 0 10px;
+}
+.time{
+    color: #ae9183;
+    font-size: 14px;
+    opacity: 0.5;
+}
+.time p{
+    font-size: 15px;
+    color: #861835;
+}
+.news a{
+    text-decoration: none;
+    color: #000;
+    
+}
+.title:hover{
+    color: red;
+}
+.seemore{
+   text-align: center;
+    
+}
+.seemore a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #Aaaaaa;
+    text-transform: uppercase;
+}
+.seemore a:hover{
+    color: red;
+}
+.news-list{
+    margin: -10px;
+    
+}
+.news-ul{
+    list-style-type: none;
+    
+}
+.news-ul>li{
+    float: left;
+}
+.news-li-first{
+    width: 520px;
+    height: 530px;
+    padding: 10px;
+}
+.news-li-first img{
+    width: 100%;
+}
+.news-li-first h1{
+    font-size: 24px;
+    font-weight: bold 400;
+    padding: 10px 0;
+    line-height: 1.4;
+    text-align: justify;
+}
+.news-li-first>a{
+    text-decoration: none;
+    color: #000;
+}
+.news-li-first >a:hover{
+    color: #12c8cb;
+}
+.news-li-first>p{
+    font-size: 16px;
+    color: #89888B;
+    line-height: 1.4;
+    padding: 10px 0;
+    text-align: justify;
+}
+.news-li{
+    height: 265px;
+    width: 25%;
+    padding:10px;
+}
+.news-li h2{
+    color: #000;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold 600;
+}
+.news-li>a{
+    text-decoration: none;
+}
+.news-li h2:hover{
+    color: red;
+}
+/* Fixture Table slide */
+.fix-row{
+    border: none;
+    min-height: 80px;
+}
+.fix-tab a:hover{
+    color: red;
+}
+.fix-tab a{
+    text-decoration: none;
+    color: #626165;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 5px;
+    margin: 0;
+}
+.fix-slider{
+    margin-top: 5px;
+    border: 1px solid #bbb;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+}
+.fix-time{
+    list-style: none;
+    
+}
+.fix-time a{
+    text-decoration: none;
+    color: #000;
+}
+.fix-time li{
+    float: left;
+    padding: 8px;
+    width: 205px;
+    
+}
+.fix-time span{
+    color: #89888B;
+    font-size: 12px;
+}
+.fix-time span:hover{
+    color: red;
+}
+.fix-time p{
+    padding: 5px 0;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+.flag.bra{
+    background: url(../img/container/flag/brazil.png) center no-repeat;
+    background-size: auto 100%;
+}
+.flag{
+    height: 0.8rem;
+    width: 1.2em; 
+    margin: 0 5px;
+    display: inline-block;
+   
+}
+
+.flag.cro{
+    background: url(../img/container/flag/croatia.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.arg{
+    background: url(../img/container/flag/argentina.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.hal{
+    background: url(../img/container/flag/halan.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.bdn{
+    background: url(../img/container/flag/bodaonha.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.mor{
+    background: url(../img/container/flag/morocco.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.fra{
+    background: url(../img/container/flag/phap.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.eng{
+    background: url(../img/container/flag/anh.png)center no-repeat;
+    background-size: auto 100%;
+}
+.fix-matches{
+
+}
+.col-right{
+    width: 320px;
+    float: left;
+}
+ .wc-fixture{
+    padding: 0 0 15px;
+    background-color: #F1EEE5;
+    border-left: 20px solid #F1EEE5;
+    border-right: 20px solid #F1EEE5;
+    border-radius:15px;
+}
+.wc-tab{
+    background-color: #861835;
+    height: 48px;
+    background-image: url(../img/logo/tải\ xuống.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 160%;
+    text-align: center;   
+    border-radius: 15px;
+}
+.wc-tab a:hover{
+    color: red;
+}
+.wc-tab a{
+    display: block;
+    width: 50%;
+    float: left;
+    text-decoration: none;
+    color: #F1EEE5;
+    font-size: 17px; 
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 48px;
+    opacity: 0.5;
+}
+.wc-tab .active{
+    opacity: 1;
+}
+.float{
+    float: left;
+    padding: 0 5px;
+
+}
+.frow, .float{
+    background:#fff;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: 700;
+    height: 42px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    display: block;
+}
+.frow{
+    margin: 5px 0;
+}
+.wc-matches{
+    width: auto;
+    margin: 0 -5px;
+}
+.col-team{
+    text-align: left;
+    width: 38%;
+}
+.col-team-r{
+    text-align: right;
+    width: 38%;
+}
+.col-time{
+    width: 24%;
+    border-bottom: 1px solid #000;
+}
+.col-time a:hover{
+    color: red;
+}
+.col-time a{
+    text-decoration: none;
+    font-size: 16px;
+    color: rgb(8, 104, 8);
+}
+.svg-footer{
+    fill:red;
+    height: 24px;
+    width: auto;
+    display: block;
+    margin: 10px auto;
+}
+.fix-cap{
+    color: var(--bg-color);
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    height: 24px;
+    line-height: 24px;
+}
+.wc-fix{
+    
+}
+.idx,
+.exp,
+.ga,
+.point{
+    font-weight: bold;
+    width: 12%;
+}
+.wc-rank{
+    
+}
+.wc-rank .wc-tab {
+    background-image: none;  
+}
+.wc-rank .wc-tab:hover{
+    background-color: red;
+    
+}
+.wc-rank .wc-tab a{
+    width: 100%;
+    opacity: 1;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+.a-h{
+    list-style-type: none;
+    padding:10px 0;
+    height: 36px;
+}
+.a-h li{
+    float: left;
+    display: block;
+    text-align: center;
+    width: 12%;
+    color: red;
+    font-weight: bold;
+}
+
+.footer{
+    
+    
+}
