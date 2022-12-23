@@ -1,3 +1,7 @@
+body{
+    width: 100%;
+    height: 100%;
+}
 *{
     padding: 0;
     margin: 0;
@@ -287,7 +291,7 @@ html{
     width: 1.2em; 
     margin: 0 5px;
     display: inline-block;
-   
+    box-shadow: 0 0 3px rgb( 0, 0, 0,0.3);
 }
 
 .flag.cro{
@@ -318,12 +322,110 @@ html{
     background: url(../img/container/flag/anh.png)center no-repeat;
     background-size: auto 100%;
 }
+.flag.sel{
+    background: url(../img/container/flag/senegal.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.ecu{
+    background: url(../img/container/flag/ecuador.png)center no-repeat;
+    background-size: auto 130%;
+
+}
+.flag.qat{
+    background: url(../img/container/flag/qatar.png)center no-repeat;
+    background-size: auto 100%;
+}
+.flag.usa{
+    background: url(../img/container/flag/my.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.ira{
+    background: url(../img/container/flag/iran.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.wal{
+    background: url(../img/container/flag/xuwales.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.bal{
+    background: url(../img/container/flag/balan.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.mex{
+    background: url(../img/container/flag/mexico.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.sau{
+    background: url(../img/container/flag/saudiarabia.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.aus{
+    background: url(../img/container/flag/uc.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.tun{
+    background: url(../img/container/flag/tunisia.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.dan{
+    background: url(../img/container/flag/danmach.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.jap{
+    background: url(../img/container/flag/nhatban.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.spa{
+    background: url(../img/container/flag/taybannha.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.ger{
+    background: url(../img/container/flag/duc.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.cos{
+    background: url(../img/container/flag/costarica.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.bel{
+    background: url(../img/container/flag/bi.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.can{
+    background: url(../img/container/flag/canada.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.swi{
+    background: url(../img/container/flag/thuysi.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.cam{
+    background: url(../img/container/flag/cameroon.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.ser{
+    background: url(../img/container/flag/serbia.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.kor{
+    background: url(../img/container/flag/hanquoc.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.uru{
+    background: url(../img/container/flag/uruguay.png)center no-repeat;
+    background-size: auto 130%;
+}
+.flag.gha{
+    background: url(../img/container/flag/ghana.png )center no-repeat;
+    background-size: auto 130%;
+}
 .fix-matches{
 
 }
 .col-right{
     width: 320px;
     float: left;
+    position: relative;
 }
  .wc-fixture{
     padding: 0 0 15px;
@@ -357,9 +459,14 @@ html{
     line-height: 48px;
     opacity: 0.5;
 }
-.wc-tab .active{
+.wc-tab a.activ{
     opacity: 1;
 }
+
+.hide{
+    display:none;
+}
+
 .float{
     float: left;
     padding: 0 5px;
@@ -481,14 +588,22 @@ html{
     padding:10px 0;
     height: 36px;
 }
-.a-h li{
+.a-h span{
     float: left;
     display: block;
     text-align: center;
     width: 12%;
     color: red;
     font-weight: bold;
+    text-decoration: none;
+
 }
+
+.a-h .activ span{
+    background-color: #7e2239;
+    border-radius: 50%;
+}
+
 .wc-fix .next-round{
     border-left: 3px solid rgb(65, 193, 65);
 }
@@ -511,7 +626,7 @@ html{
     margin: 0;
     padding: 0;
     width: auto;
-    height: 2000px;
+    height: auto;
 }
 .stadium-slide{
    display: flex;
@@ -625,3 +740,140 @@ html{
     display: block;
 }
 /* end stadium css */
+/* Video WC */
+.qatar-video{
+    background-color: #330620;
+    height: 500px;
+}
+.q-video{
+    background: url(../img/logo/bg1.png)top 0 left 5% no-repeat ;
+    background-size: auto 180px;
+    padding: 30px 0;
+    height: 100%;
+}
+.vd-title{
+    width: 100%;
+    text-align: center;
+    
+}
+.vd-title a{
+    font-size: 48px;
+    color: #F1EEE5;
+    width: 103%;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.vd-title a:hover{
+    color: red;
+}
+.vd-title svg{
+    fill: #12c8cb;
+    width: 240px;
+    margin: auto;
+    display:block;
+}
+.vd-container{
+    max-width: 1020px;
+    min-height: 320px;
+    margin: auto;
+}
+.qatar-slide{
+   height:auto;
+   overflow: hidden;
+   z-index: 1;
+}
+.vd-slide{  
+    width: 10000px;
+    
+}
+.vd-slide .video{
+    width: 350px;
+    padding: 10px 0;  
+    float: left;  
+}
+.video img{
+    height: auto;
+    width: 100%;
+}
+.video a{
+    text-decoration: none;
+    color: #fff;
+    width: 330px;
+    display: block;
+}
+.video a:hover{
+    color: red;
+}
+.video h3{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.video .time{
+    font-size: 10px;
+    opacity: 0.8;
+}
+
+/* end video */
+.footer{
+    height: 570px; 
+    background: #550065;
+}
+.footer-img{
+    height: 500px;
+    background: url(../img/logo/Hihgights-Page-All-Versions-New-banner.webp) no-repeat;
+    background-size: auto 80%;
+    background-position: right 0 top 70px;
+}
+.width-ft{
+    width: 1050px;
+    margin: auto; 
+}
+.footer-head{
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+.footer-logo{
+    width: 240px;
+    padding: 0 12px;
+}
+.footer-social{
+    padding: 0 12px;
+    width: 350px;
+    text-align: center;
+}
+.footer-social a{
+    margin:0 24px 0 16px;
+}
+.text-ft{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+.footer-title{
+    margin-left: 50px;
+}
+.footer-body{
+    width: 500px;
+    float: left;
+    margin-left: 150px;
+    margin-top: 150px;
+    text-align: left;
+}
+.footer-body h1{
+    font-size: 30px;
+     font-weight: 500;
+     font-weight: bold;
+     padding-bottom: 15px;
+     letter-spacing: 0.5;
+}
+.footer-body p{ 
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.6px;
+
+}
