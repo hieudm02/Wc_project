@@ -34,7 +34,7 @@ html{
     height: 80px;   
     position: fixed ;
     top: 0;
-    z-index: 1000;
+    z-index: 100;
 }
 .hbar img{
     width: 104px;  
@@ -648,7 +648,6 @@ html{
 .sta-slider img{
     width:100%;
     height: 280px;
-    display: block;
 }
 .sta-slider .h2{
     text-align: center;
@@ -665,7 +664,7 @@ html{
     margin-bottom: 35px;
 
 }
-.stadium-slide .sliler-hv p{
+.smail-p{
     text-transform: uppercase;
     font-size: 10px;
     font-weight: 400;
@@ -697,10 +696,10 @@ html{
     
 }
 .stadium-slide .sta-slider:hover{
-    box-shadow:-6px 6px 20px rgba(0, 0, 0, 0.1);
+    box-shadow:-6px 6px 20px rgba(0, 0, 0, 0.2);
     color: #861835;
 }
-.stadium-slide .sta-slider img:hover{
+.stadium-slide .sta-slider:hover img{
     transform: scale(1.2);
 }
 
@@ -740,9 +739,175 @@ html{
     display: block;
 }
 /* end stadium css */
+/* stadium show */
+.open{
+    display: none;
+}
+.sta-show{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgb(0, 0, 0, 0.2);
+    z-index: 1000;
+    overflow-y: auto;
+}
+.sta-show-container-,
+.sta-container-info img,
+.sta-container-matches{
+    border-radius: 0.75em;
+}
+.sta-show-container{
+    min-width: 932px;
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%,-50%);
+    max-height: 80%;
+    
+   
+}
+.sta-show-container-{
+    padding: 40px; 
+    background-color: #fff;
+    display: flex;
+}
+.sta-container-info{
+    width: 55%;
+    margin-right: 32px;
+}
+.sta-container-info img{
+    width: 100%;
+    height: auto;
+}
+.sta-container-info-title h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+.sta-container-info-title{
+    display: flex;
+}
+.sta-container-info-title svg{
+    fill: #7e2239;
+    margin-left: 120px;
+    margin-top: 15px;
+}
+.sta-container-info .smail-p{
+    margin-bottom: 5px;
+}
+.sta-container-text{
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.sta-container-text>br{
+    margin-top: 25px;
+}
+.sta-container-p{
+    margin-bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.6;
+}
+.sta-container-p span{
+    margin-right: 15px;
+    border-bottom: 4px solid #7e2239;
+}
+.sta-show-close{
+    position: absolute;
+    top: 13px;
+    right: 14px;
+    background-color: #fff;
+    width: 48px;
+    height: 48px;
+    border-radius: 9999px;
+    text-align: center;
+    line-height: 55px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+.sta-show-close i{
+    font-size: 18px;
+    font-weight: bold;
+}
+.sta-container-matches a{
+    text-decoration: none;
+}
+.sta-container-matches{
+    width: 344px;
+    box-shadow: 0 1px 3px rgb( 0, 0, 0,0.3);
+}
+.sta-show-matches:hover,
+.sta-show-matches:hover .frow,
+.sta-show-matches:hover .frow .float{
+    background: #fff9e5;
+    cursor: pointer;
+}
+.team-lose{
+    opacity: 0.6;
+}
+.sta-show-matches .frow{
+    font-size: 12px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.sta-show-matches{
+    padding: 15px 4px 10px;
+    text-align: center;
+    border-bottom: 1px solid rgb( 0, 0, 0,0.2);
+}
+.sta-show-matches .frow .col-time{
+    color: #000;
+    border: 1px solid rgb( 0, 0, 0,0.1);
+    width: 70px;
+    height: 24px;
+    line-height: 24px;
+    border-radius: 9999px;
+    background-color: #f4f6fa;
+    margin: 0 5px;
+}
+.sta-container-matches .col-team{
+    text-align: right;
+}
+.sta-container-matches .col-team-r{
+    text-align: left;
+}
+.sta-show-matches .frow span{
+    height: 21px;
+    width: 28px;
+
+}
+.sta-matches-time{
+    font-size: 13px;
+    color: rgba(0,0,0,.6);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+.sta-matches-time span{
+    margin-top: 13px;
+    display: flex;
+    justify-content: center;
+    font-size: 11px;
+}
+.sta-show-matches-title{
+    text-align: center;
+    
+    font-size: 15px;
+    font-weight: 700;
+    color: #861835;
+}
+.sta-show-matches-title h3{
+    border-bottom: 2px solid #7e2239;
+    padding: 16px 0;
+}
+
+/* end stashow */
 /* Video WC */
 .qatar-video{
-    background-color: #330620;
+    background-color: #26012e ;
     height: 500px;
 }
 .q-video{
@@ -781,7 +946,7 @@ html{
 .qatar-slide{
    height:auto;
    overflow: hidden;
-   z-index: 1;
+   z-index: 1;  
 }
 .vd-slide{  
     width: 10000px;
