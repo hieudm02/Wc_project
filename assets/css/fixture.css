@@ -1,0 +1,58 @@
+
+.bxh-fix a:last-child::after{
+    content: "";
+    width: 153px;
+    height: 4px;
+    background-color: #861835;
+    position: absolute;
+    bottom: 10px;
+    left: 27px;
+}
+.w-100{
+    width: 100%!important;
+}
+.btn-gr-stage{
+    margin: 0px 0px 48px;
+    height: 42px;
+    
+}
+.gr-stage{
+    justify-content: center;
+    
+}
+.gr-stage li{
+    list-style-type: none;
+    padding: 0 24px;
+    position: relative;
+}
+.gr-stage li:last-child::after{
+    display: none;
+}
+.gr-stage li::after{
+    content: "";
+    width: 1px;
+    height: 30px;
+    background-color: rgb(0, 0, 0,.2);
+    position: absolute;
+    right: 0;
+    top: 5px;
+}
+.gr-stage a:hover{
+    background-color: #861835;
+    color: #fff;
+}
+.gr-stage a{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-decoration: none;
+    padding: 8px 20px;
+    background-color: rgb(243, 243, 243);
+    line-height: 42px;
+    border-radius: 2px;
+}
+/* matches */
+.gr-matches{
+    justify-content: center;
+}
