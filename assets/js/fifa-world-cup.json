@@ -10,8 +10,8 @@
             "https://world-cup.codsfli.com/flag/ECU.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 3,
@@ -25,8 +25,8 @@
             "https://world-cup.codsfli.com/flag/IRN.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 6,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 2,
@@ -40,8 +40,8 @@
             "https://world-cup.codsfli.com/flag/NED.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 4,
@@ -55,8 +55,8 @@
             "https://world-cup.codsfli.com/flag/WAL.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 8,
@@ -70,8 +70,8 @@
             "https://world-cup.codsfli.com/flag/KSA.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 6,
@@ -85,8 +85,8 @@
             "https://world-cup.codsfli.com/flag/TUN.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 7,
@@ -100,8 +100,8 @@
             "https://world-cup.codsfli.com/flag/POL.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 5,
@@ -115,8 +115,8 @@
             "https://world-cup.codsfli.com/flag/AUS.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 12,
@@ -130,8 +130,8 @@
             "https://world-cup.codsfli.com/flag/CRO.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 11,
@@ -145,8 +145,8 @@
             "https://world-cup.codsfli.com/flag/JPN.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 10,
@@ -160,8 +160,8 @@
             "https://world-cup.codsfli.com/flag/CRC.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 7,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 9,
@@ -175,8 +175,8 @@
             "https://world-cup.codsfli.com/flag/CAN.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 13,
@@ -190,8 +190,8 @@
             "https://world-cup.codsfli.com/flag/CMR.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 14,
@@ -205,8 +205,8 @@
             "https://world-cup.codsfli.com/flag/KOR.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 15,
@@ -220,8 +220,8 @@
             "https://world-cup.codsfli.com/flag/GHA.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 16,
@@ -235,8 +235,8 @@
             "https://world-cup.codsfli.com/flag/SRB.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 17,
@@ -250,8 +250,8 @@
             "https://world-cup.codsfli.com/flag/IRN.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 18,
@@ -265,8 +265,8 @@
             "https://world-cup.codsfli.com/flag/SEN.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 19,
@@ -280,8 +280,8 @@
             "https://world-cup.codsfli.com/flag/ECU.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 20,
@@ -295,8 +295,8 @@
             "https://world-cup.codsfli.com/flag/USA.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 21,
@@ -310,8 +310,8 @@
             "https://world-cup.codsfli.com/flag/AUS.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 22,
@@ -325,8 +325,8 @@
             "https://world-cup.codsfli.com/flag/KSA.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 23,
@@ -340,8 +340,8 @@
             "https://world-cup.codsfli.com/flag/DEN.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 24,
@@ -355,8 +355,8 @@
             "https://world-cup.codsfli.com/flag/MEX.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 25,
@@ -370,8 +370,8 @@
             "https://world-cup.codsfli.com/flag/CRC.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 26,
@@ -385,8 +385,8 @@
             "https://world-cup.codsfli.com/flag/MAR.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 27,
@@ -400,8 +400,8 @@
             "https://world-cup.codsfli.com/flag/CAN.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 4,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 28,
@@ -415,8 +415,8 @@
             "https://world-cup.codsfli.com/flag/GER.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 29,
@@ -430,8 +430,8 @@
             "https://world-cup.codsfli.com/flag/SRB.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 3,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 30,
@@ -445,8 +445,8 @@
             "https://world-cup.codsfli.com/flag/GHA.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 31,
@@ -460,8 +460,8 @@
             "https://world-cup.codsfli.com/flag/SUI.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 32,
@@ -475,8 +475,8 @@
             "https://world-cup.codsfli.com/flag/URU.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 35,
@@ -490,8 +490,8 @@
             "https://world-cup.codsfli.com/flag/SEN.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 36,
@@ -505,8 +505,8 @@
             "https://world-cup.codsfli.com/flag/QAT.png"
         ],
         "Group": "Group A",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 33,
@@ -520,8 +520,8 @@
             "https://world-cup.codsfli.com/flag/ENG.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 34,
@@ -535,8 +535,8 @@
             "https://world-cup.codsfli.com/flag/USA.png"
         ],
         "Group": "Group B",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 37,
@@ -550,8 +550,8 @@
             "https://world-cup.codsfli.com/flag/DEN.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 38,
@@ -565,8 +565,8 @@
             "https://world-cup.codsfli.com/flag/FRA.png"
         ],
         "Group": "Group D",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 39,
@@ -580,8 +580,8 @@
             "https://world-cup.codsfli.com/flag/ARG.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 40,
@@ -595,8 +595,8 @@
             "https://world-cup.codsfli.com/flag/MEX.png"
         ],
         "Group": "Group C",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 41,
@@ -610,8 +610,8 @@
             "https://world-cup.codsfli.com/flag/BEL.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 0
     },
     {
         "MatchNumber": 42,
@@ -625,8 +625,8 @@
             "https://world-cup.codsfli.com/flag/MAR.png"
         ],
         "Group": "Group F",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 43,
@@ -640,8 +640,8 @@
             "https://world-cup.codsfli.com/flag/ESP.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 44,
@@ -655,8 +655,8 @@
             "https://world-cup.codsfli.com/flag/GER.png"
         ],
         "Group": "Group E",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 4
     },
     {
         "MatchNumber": 45,
@@ -670,8 +670,8 @@
             "https://world-cup.codsfli.com/flag/URU.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 0,
+        "AwayTeamScore": 2
     },
     {
         "MatchNumber": 46,
@@ -685,8 +685,8 @@
             "https://world-cup.codsfli.com/flag/POR.png"
         ],
         "Group": "Group H",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 1
     },
     {
         "MatchNumber": 47,
@@ -700,8 +700,8 @@
             "https://world-cup.codsfli.com/flag/SUI.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 2,
+        "AwayTeamScore": 3
     },
     {
         "MatchNumber": 48,
@@ -715,7 +715,7 @@
             "https://world-cup.codsfli.com/flag/BRA.png"
         ],
         "Group": "Group G",
-        "HomeTeamScore": null,
-        "AwayTeamScore": null
+        "HomeTeamScore": 1,
+        "AwayTeamScore": 0
     }
 ]

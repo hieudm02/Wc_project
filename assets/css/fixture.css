@@ -41,6 +41,10 @@
     background-color: #861835;
     color: #fff;
 }
+.gr-stage .click-activ{
+    background-color: #861835;
+    color: #fff;
+}
 .gr-stage a{
     text-align: center;
     font-size: 16px;
@@ -53,6 +57,74 @@
     border-radius: 2px;
 }
 /* matches */
-.gr-matches{
+.gr-matches-main-1:last-child{
+    margin-bottom: 100px;
+}
+.gr-matches .day{
+    font-size: 20px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 20px;
+}
+.gr-matches-detail{
+    text-decoration: none;
+    padding: 24px 32px;
+    box-shadow: 0 0 3px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+.gr-matches-detail-col .group{
+    font-weight: bold;
+    font-size: 15px;
+}
+.gr-matches-detail-col .stadium{
+    opacity: 0.5;
+    margin-top: 5px;
+}
+.gr-matches-detail-col{
+    width: 15%;
+    flex-direction: column;
+    color: #000;
+    font-size: 13px;
+    margin-right: 40px;
+}
+.gr-matches-main{
+    
+}
+.gr-matches-main-1{
+    width: 900px;
+    margin: 0 auto;
+    
+}
+.gr-matches-detail-col-2 .name{
     justify-content: center;
+}
+.gr-matches-detail-col-2 .hometeam{
+    width: 60%;
+    justify-content: flex-end;
+}
+.gr-matches-detail-col-2 .awayteam{
+    width: 60%;
+    justify-content: flex-start;
+}
+.gr-matches-score{
+    width: 40%;
+}
+.gr-matches-detail-col-2{
+    width: 60%;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+}
+.col-3{
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 0;
+}
+.matches-end{
+    opacity: 0.5    ;
+}
+.gr-matches-detail-col-2 .gr-team{
+    justify-content: space-between;
 }
