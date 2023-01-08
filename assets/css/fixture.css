@@ -66,6 +66,9 @@
     color: #000;
     margin-bottom: 20px;
 }
+.gr-matches-detail:hover{
+    background-color: #fff8e5;
+}
 .gr-matches-detail{
     text-decoration: none;
     padding: 24px 32px;
@@ -86,6 +89,9 @@
     color: #000;
     font-size: 13px;
     margin-right: 40px;
+}
+.pointer-event-none{
+    display: none;
 }
 .gr-matches-main{
     
@@ -126,5 +132,14 @@
     opacity: 0.5    ;
 }
 .gr-matches-detail-col-2 .gr-team{
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+}
+.gr-matches-score{
+    border-radius: 15px;
+    height: 34px;
+    margin: 0px 20px;
+    justify-content: center;
+    background-color: #f4f6fa;
+    align-items: center;
 }
