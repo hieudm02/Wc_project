@@ -66,13 +66,16 @@
                     <li class=""><a href="" onclick="return false" class="btns-stage" >Vòng loại trực tiếp</a></li>
                 </ul>
             </div>
-            <div class="gr-matches-main gr-1  w-100">
+            <div class="gr-matches-main gr-1 pointer-event-none w-100">
                 
             </div>
             <div class="gr-matches-main gr-2 pointer-event-none w-100">
                 
             </div>
             <div class="gr-matches-main gr-3 pointer-event-none w-100">
+                
+            </div>
+            <div class="gr-matches-main gr-4  gr-knockout w-100">
                 
             </div>
         <div class="footer">
@@ -114,7 +117,7 @@
                 myArray.map((btns,index)=>{
                     
                     btns.addEventListener('click',function show(){
-                        for(var i=0;i<3;i++){
+                        for(var i=0;i<4;i++){
                             showMatch[i].classList.add('pointer-event-none')
                             btn[i].classList.remove('click-activ');
 

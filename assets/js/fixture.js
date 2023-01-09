@@ -40,12 +40,11 @@
 //     })
 // })
 
-// matchess
+// matches
 async function fetchMatch(){
     let matchByRound = document.querySelector('.gr-1')
     let matchByRound2 = document.querySelector('.gr-2')
     let matchByRound3 = document.querySelector('.gr-3')
-    let matches = document.querySelector('.gr-matches-main')
     let data = await fetch('https://raw.githubusercontent.com/hieudm02/Wc_project/master/assets/js/fifa-world-cup.json');
     let response = await data.json();
     let all_match = [];
